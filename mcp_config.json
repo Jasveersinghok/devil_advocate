@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "mcp-tavily": {
+      "command": "npx",
+      "args": ["-y", "@tavily/mcp-server"],
+      "env": {
+        "TAVILY_API_KEY": "YOUR_TAVILY_API_KEY_HERE"
+      }
+    },
+    "mcp-brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "YOUR_BRAVE_API_KEY_HERE"
+      }
+    },
+    "mcp-semantic-scholar": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-semantic-scholar"],
+      "env": {}
+    }
+  }
+}
