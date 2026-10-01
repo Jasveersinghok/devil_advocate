@@ -207,4 +207,4 @@ For production WebSocket, use `wss://` instead of `ws://`.
 
 ## 📄 License
 
-MIT — feel free to fork and build on it.
+feel free to fork and build on it.
